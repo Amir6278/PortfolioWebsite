@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(54, 61, 161), lightgreen);
+    opacity: 1;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+#header {
+    background: rgb(12, 11, 11, 0.8);
+    height: 60vh;
+    margin: 0;
+    border: 3px solid gray;
+}
+
+.navbar {
+    /* height: 100px; */
+    font-size: 1.3rem;
+    padding: 3% 12%;
+    height: 10vh;
+    background: rgba(46, 44, 44, 0.5);
+}
+
+.nav-link {
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover {
+    font-size: 1.6rem;
+    transform: scale(1.1);
+    background-color: rgb(54, 54, 54);
+    border: 1px solid gray;
+    width: fit-content;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.intro {
+    text-align: center;
+    padding: 5%;
+}
+
+.intro h1 {
+    text-transform: capitalize;
+    border-right: 3px solid black;
+    color: white;
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: Tahoma, sans-serif;
+    margin: 0 auto;
+    animation: typist1 11s steps(14), caret 0.5s infinite step-end;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.intro h3 {
+    text-transform: capitalize;
+    border-right: 3px solid black;
+    margin: 0 auto;
+    overflow: hidden;
+    animation: typist 14s infinite steps(15), caret 0.7s infinite step-end;
+    white-space: nowrap;
+}
+
+@keyframes caret {
+    0%,
+    100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+@keyframes typist1 {
+    0% {
+        width: 0ch;
+    }
+    30% {
+        width: 8ch;
+        display: show;
+    }
+    80% {
+        width: 13ch;
+    }
+    80% {
+        width: 15ch;
+    }
+}
+
+@keyframes typist {
+    0% {
+        width: 0ch;
+    }
+    30% {
+        width: 8ch;
+        display: inline;
+    }
+    80% {
+        width: 15ch;
+        display: inline;
+    }
+    90% {
+        width: 0ch;
+    }
+    100% {
+        width: 0ch;
+    }
+}
+
+#about {
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    padding: 10px;
+}
+
+.myIMG {
+    /* margin: 10% 20%; */
+    border-radius: 50%;
+    padding-left: 1rem;
+}
+.shadow{
+    
+    text-shadow: 1px 1px black;
+}
+
+.profile {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 2rem;
+    font-family: cursive;
+    color: #eee;
+}
+
+.profile h2 {
+    font-size: 4rem;
+}
+
+.profile a {
+    font-size: 2.5rem;
+    padding: 20px;
+    text-decoration: none;
+    color: honeydew;
+}
+
+.profile a:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+#projects {
+    background: #195c7adf;
+    padding: 2%;
+    border: 3px solid gray;
+}
+
+.myCard {
+    padding: 2%;
+    background-color:rgb(238, 212, 174,0.8);;
+    color:red;
+    
+    
+}
+.myCard h5{
+    color:BLue;
+    margin-bottom: 1em;
+}
+
+.message {
+    line-height: 2;
+    background-color: rgb(223, 202, 164, 0.8);
+    width: 100%;
+    border: 1px solid black;
+    padding-left: 2em;
+}
+
+.skill {
+    margin-top: 2rem;
+    padding: 1em;
+}
